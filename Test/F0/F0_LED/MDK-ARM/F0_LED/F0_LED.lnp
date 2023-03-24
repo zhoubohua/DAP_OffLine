@@ -1,0 +1,26 @@
+--cpu Cortex-M0
+"f0_led\startup_stm32f030x6.o"
+"f0_led\main.o"
+"f0_led\gpio.o"
+"f0_led\stm32f0xx_it.o"
+"f0_led\stm32f0xx_hal_msp.o"
+"f0_led\stm32f0xx_hal_tim.o"
+"f0_led\stm32f0xx_hal_tim_ex.o"
+"f0_led\stm32f0xx_hal_rcc.o"
+"f0_led\stm32f0xx_hal_rcc_ex.o"
+"f0_led\stm32f0xx_hal.o"
+"f0_led\stm32f0xx_hal_i2c.o"
+"f0_led\stm32f0xx_hal_i2c_ex.o"
+"f0_led\stm32f0xx_hal_gpio.o"
+"f0_led\stm32f0xx_hal_dma.o"
+"f0_led\stm32f0xx_hal_cortex.o"
+"f0_led\stm32f0xx_hal_pwr.o"
+"f0_led\stm32f0xx_hal_pwr_ex.o"
+"f0_led\stm32f0xx_hal_flash.o"
+"f0_led\stm32f0xx_hal_flash_ex.o"
+"f0_led\stm32f0xx_hal_exti.o"
+"f0_led\system_stm32f0xx.o"
+--strict --scatter "F0_LED\F0_LED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F0_LED.map" -o F0_LED\F0_LED.axf

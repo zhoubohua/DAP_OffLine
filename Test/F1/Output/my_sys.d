@@ -1,0 +1,14 @@
+..\output\my_sys.o: my_sys.c
+..\output\my_sys.o: my_sys.h
+..\output\my_sys.o: ..\CMSIS\stm32f10x.h
+..\output\my_sys.o: ..\CMSIS\core_cm3.h
+..\output\my_sys.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\my_sys.o: ..\CMSIS\system_stm32f10x.h
+..\output\my_sys.o: ..\USER\stm32f10x_conf.h
+..\output\my_sys.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\my_sys.o: ..\CMSIS\stm32f10x.h
+..\output\my_sys.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\my_sys.o: ..\FWlib\inc\stm32f10x_spi.h
+..\output\my_sys.o: ..\FWlib\inc\stm32f10x_usart.h
+..\output\my_sys.o: ..\FWlib\inc\misc.h
+..\output\my_sys.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
